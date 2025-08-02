@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "jekyll-theme-kagami"
-  spec.version       = "0.2.0"
+  spec.version       = "0.2.1"
   spec.authors       = ["kamikat"]
   spec.email         = ["kamikat@banana.moe"]
 
@@ -12,5 +12,5 @@ Gem::Specification.new do |spec|
 
   spec.files         = `git ls-files --recurse-submodules -z`.split("\x0").select { |f| f.match(%r{^(assets|_layouts|_includes|_sass/kagami|_sass/scut/dist|LICENSE|README)}i) }
 
-  spec.add_development_dependency "github-pages"
+  spec.add_development_dependency "github-pages", "~> 232"
 end
