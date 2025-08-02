@@ -24,6 +24,9 @@ body {
     padding-left: $content-padding + $post-margin-width;
     padding-right: $content-padding + $post-margin-width;
   }
+  @media screen and (min-width: $content-width / 0.75) {
+    max-width: 75%;
+  }
 }
 
 article {
